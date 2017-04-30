@@ -1,0 +1,204 @@
+[ 2017-04-12T21:55:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-04-12T22:00:44+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:00:50+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:04:13+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:04:13+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:05:12+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:07:27+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:26:41+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:26:41+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:26:46+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:26:51+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:26:51+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:26:57+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:02+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:02+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:13+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:13+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:14+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:19+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:19+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:28+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:28+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:30+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:45+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:45+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:49+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:57+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:57+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:27:59+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee3416b1e6d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:28:10+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:28:23+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-09/58ea32eb118f7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T22:32:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-04-12T23:07:37+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee39fd5c4e9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-12T23:07:41+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2017-04-12/58ee39fd5c4e9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+

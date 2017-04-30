@@ -1,0 +1,1435 @@
+[ 2017-04-23T20:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0160s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T20:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-23T20:38:00+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T20:38:03+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: _page_btn_name D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\dfed54471f23c5cc0f29d10cfac5ae98.php 第 22 行.
+NOTIC: [8] Undefined variable: _page_title D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\dfed54471f23c5cc0f29d10cfac5ae98.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T20:50:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-04-23T20:58:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0330s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.052003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.052003s ]
+
+[ 2017-04-23T20:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033002s ]
+
+[ 2017-04-23T20:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:00:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:00:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-04-23T21:06:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:06:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=14&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.017001s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-23T21:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=14&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0330s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:13:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=19&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0230s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-04-23T21:13:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=19&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0190s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:13:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=19&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=17&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.108006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.109006s ]
+
+[ 2017-04-23T21:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=14&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_id D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:16:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=14&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:16:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=18&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-04-23T21:21:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=18&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) AND a.cat_id IN ('18') ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0420s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:22:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=17&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) AND a.cat_id IN ('17') ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:22:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=2&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) AND a.cat_id IN ('3','6','15','8','9','12','13','21','2') ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0890s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-23T21:22:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:22:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=14&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) AND a.cat_id IN ('14') ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-04-23T21:22:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?cat_id=&brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-23T21:22:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/odby/time_desc/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T21:22:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/odby/time_desc/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\thinkphp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id
+                                left join tp_category  c on a.cat_id = c.id   WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\CategoryModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\CategoryModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_category` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [8] Undefined index: cat_level D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0180s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,1571 @@
+[ 2017-04-16T15:11:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.081005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.3690s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.1210s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.067003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.067003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.046003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.046003s ]
+
+[ 2017-04-16T15:11:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-04-16T15:19:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-04-16T15:21:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:21:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-16T15:22:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-16T15:24:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-16T15:29:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:29:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:30:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:31:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:34:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:34:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:34:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:35:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\thinkphp\ThinkPHP\Library\Think\Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:35:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\thinkphp\ThinkPHP\Library\Think\Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:36:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:36:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T15:36:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:37:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-16T15:39:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T15:39:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T15:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:41:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:46:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-16T15:46:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:47:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a right join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:47:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:47:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:48:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:51:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-16T15:53:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+
+[ 2017-04-16T15:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name` FROM `tp_brand` WHERE ( is_delete = 0 ) 
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name` FROM `tp_brand` WHERE ( is_delete = 0 ) 
+
+[ 2017-04-16T15:53:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+
+[ 2017-04-16T15:56:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T15:56:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T15:57:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-04-16T15:57:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+
+[ 2017-04-16T15:59:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:00:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+
+[ 2017-04-16T16:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:04:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:04:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:05:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:05:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:05:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: brandAll D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:05:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:08:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T16:10:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=4&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:12:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=6&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+
+[ 2017-04-16T16:13:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+
+[ 2017-04-16T16:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=4&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '4' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:15:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=4&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '4' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:15:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=5&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '5' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:15:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/brand_id/5/odby/time_desc/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '5' ORDER BY a.create_time  desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:15:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/brand_id/5/odby/time_desc/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '5' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=4&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '4' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=5&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '5' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:17:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T16:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=4&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '4' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:18:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=8&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) AND a.brand_id = '8' ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-16T16:19:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=&fp=&tp=&ios=&fa=&ta=&odby=time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) D:\xampp\htdocs\thinkphp\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( is_delete = "否"  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM tp_goods a left join tp_brand  b on  a.brand_id = b.id  WHERE ( a.is_delete = "否"  ) ORDER BY a.create_time  desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand` WHERE ( is_delete = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`brand_name` FROM `tp_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
